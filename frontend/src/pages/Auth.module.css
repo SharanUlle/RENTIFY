@@ -1,0 +1,32 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-light) 0%, #fff 60%);
+  padding: 2rem;
+}
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 420px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+.title { font-size: 1.6rem; font-weight: 800; margin-bottom: 0.25rem; }
+.sub { color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem; }
+.form { display: flex; flex-direction: column; gap: 1rem; }
+.field { display: flex; flex-direction: column; gap: 0.35rem; }
+.field label { font-size: 0.875rem; font-weight: 600; color: var(--text); }
+.switch { margin-top: 1.5rem; text-align: center; font-size: 0.9rem; color: var(--text-muted); }
+.switch a { color: var(--primary); font-weight: 600; }
