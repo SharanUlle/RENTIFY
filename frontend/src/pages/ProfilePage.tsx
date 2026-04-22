@@ -7,7 +7,7 @@ import { authService } from '../services'
 import styles from './ProfilePage.module.css'
 
 export default function ProfilePage() {
-  const { user, login } = useAuthStore()
+  const { user } = useAuthStore()
   const fileRef = useRef<HTMLInputElement>(null)
 
   const [name, setName] = useState(user?.name || '')

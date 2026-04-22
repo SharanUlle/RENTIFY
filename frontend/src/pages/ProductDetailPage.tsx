@@ -6,7 +6,7 @@ import { productService, rentalService, reviewService } from '../services'
 import { useAuthStore } from '../store/authStore'
 import { useRazorpay } from '../hooks/useRazorpay'
 import toast from 'react-hot-toast'
-import { format, addHours, addDays, addWeeks, addMonths } from 'date-fns'
+import { format, addHours, addWeeks, addMonths } from 'date-fns'
 import styles from './ProductDetailPage.module.css'
 
 const FALLBACK = 'https://placehold.co/800x500/ede9ff/6c47ff?text=Rentify'

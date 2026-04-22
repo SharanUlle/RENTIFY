@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link, useNavigate, useLocation } from 'react-router-dom'
-import { ShoppingBag, PlusCircle, User, LogOut, Home, Package, ChevronDown, Settings } from 'lucide-react'
+import { ShoppingBag, PlusCircle, LogOut, Home, Package, ChevronDown, Settings } from 'lucide-react'
 import { useAuthStore } from '../../store/authStore'
 import styles from './Navbar.module.css'
 
